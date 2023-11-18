@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F573FE8D2AFC39320096C264 /* ManicureEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */; };
+		F573FE8F2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */; };
 		F5809DF22AF6EC12001C5DD2 /* iCutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809DF12AF6EC12001C5DD2 /* iCutAppApp.swift */; };
 		F5809DF42AF6EC12001C5DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809DF32AF6EC12001C5DD2 /* ContentView.swift */; };
 		F5809DF62AF6EC14001C5DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5809DF52AF6EC14001C5DD2 /* Assets.xcassets */; };
 		F5809DF92AF6EC14001C5DD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5809DF82AF6EC14001C5DD2 /* Preview Assets.xcassets */; };
+		F5809E002AF6EC55001C5DD2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809DFF2AF6EC55001C5DD2 /* MapView.swift */; };
+		F5809E022AF6ECD5001C5DD2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E012AF6ECD5001C5DD2 /* ContentViewModel.swift */; };
+		F5809E042AF6ED1F001C5DD2 /* Agendamentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E032AF6ED1F001C5DD2 /* Agendamentos.swift */; };
+		F5809E0A2AF6ED4C001C5DD2 /* Tintura.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E092AF6ED4C001C5DD2 /* Tintura.swift */; };
+		F5809E0C2AF6ED57001C5DD2 /* Hidratacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0B2AF6ED57001C5DD2 /* Hidratacao.swift */; };
+		F5809E0E2AF6ED68001C5DD2 /* Penteados.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0D2AF6ED68001C5DD2 /* Penteados.swift */; };
+		F5809E102AF6ED77001C5DD2 /* Manicure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */; };
+		F5809E122AF6ED83001C5DD2 /* Pedicure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E112AF6ED83001C5DD2 /* Pedicure.swift */; };
+		F5809E142AF6ED8D001C5DD2 /* Podologia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E132AF6ED8D001C5DD2 /* Podologia.swift */; };
+		F5809E162AF6EDA1001C5DD2 /* Maquiagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E152AF6EDA1001C5DD2 /* Maquiagem.swift */; };
+		F5809E182AF6EDA9001C5DD2 /* LimpezaPele.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E172AF6EDA9001C5DD2 /* LimpezaPele.swift */; };
+		F5809E1A2AF6EDB3001C5DD2 /* Peeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E192AF6EDB3001C5DD2 /* Peeling.swift */; };
+		F5809E1C2AF6EDFA001C5DD2 /* Depilacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E1B2AF6EDFA001C5DD2 /* Depilacao.swift */; };
+		F5FDCC382AFAEDA2000AF5B8 /* CorteMasculino.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FDCC372AFAEDA2000AF5B8 /* CorteMasculino.swift */; };
+		F5FDCC3A2AFAEDB2000AF5B8 /* CorteFeminino.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FDCC392AFAEDB2000AF5B8 /* CorteFeminino.swift */; };
+		F5FDCC3D2AFAEF42000AF5B8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FDCC3C2AFAEF42000AF5B8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManicureEstabelecimentos.swift; sourceTree = "<group>"; };
+		F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedicureEstabelecimentos.swift; sourceTree = "<group>"; };
 		F5809DEE2AF6EC12001C5DD2 /* iCutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5809DF12AF6EC12001C5DD2 /* iCutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCutAppApp.swift; sourceTree = "<group>"; };
 		F5809DF32AF6EC12001C5DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5809DF52AF6EC14001C5DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5809DF82AF6EC14001C5DD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5809DFF2AF6EC55001C5DD2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F5809E012AF6ECD5001C5DD2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F5809E032AF6ED1F001C5DD2 /* Agendamentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agendamentos.swift; sourceTree = "<group>"; };
+		F5809E092AF6ED4C001C5DD2 /* Tintura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tintura.swift; sourceTree = "<group>"; };
+		F5809E0B2AF6ED57001C5DD2 /* Hidratacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidratacao.swift; sourceTree = "<group>"; };
+		F5809E0D2AF6ED68001C5DD2 /* Penteados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penteados.swift; sourceTree = "<group>"; };
+		F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manicure.swift; sourceTree = "<group>"; };
+		F5809E112AF6ED83001C5DD2 /* Pedicure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedicure.swift; sourceTree = "<group>"; };
+		F5809E132AF6ED8D001C5DD2 /* Podologia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podologia.swift; sourceTree = "<group>"; };
+		F5809E152AF6EDA1001C5DD2 /* Maquiagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maquiagem.swift; sourceTree = "<group>"; };
+		F5809E172AF6EDA9001C5DD2 /* LimpezaPele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimpezaPele.swift; sourceTree = "<group>"; };
+		F5809E192AF6EDB3001C5DD2 /* Peeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peeling.swift; sourceTree = "<group>"; };
+		F5809E1B2AF6EDFA001C5DD2 /* Depilacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depilacao.swift; sourceTree = "<group>"; };
+		F5FDCC372AFAEDA2000AF5B8 /* CorteMasculino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorteMasculino.swift; sourceTree = "<group>"; };
+		F5FDCC392AFAEDB2000AF5B8 /* CorteFeminino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorteFeminino.swift; sourceTree = "<group>"; };
+		F5FDCC3C2AFAEF42000AF5B8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +89,9 @@
 			children = (
 				F5809DF12AF6EC12001C5DD2 /* iCutAppApp.swift */,
 				F5809DF32AF6EC12001C5DD2 /* ContentView.swift */,
+				F5FDCC3B2AFAEF18000AF5B8 /* Model */,
+				F5FDCC2E2AFAEB3A000AF5B8 /* ViewModels */,
+				F5FDCC2C2AFAEAC1000AF5B8 /* Views */,
 				F5809DF52AF6EC14001C5DD2 /* Assets.xcassets */,
 				F5809DF72AF6EC14001C5DD2 /* Preview Content */,
 			);
@@ -65,6 +104,107 @@
 				F5809DF82AF6EC14001C5DD2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5FDCC2C2AFAEAC1000AF5B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDCC2D2AFAEACD000AF5B8 /* Map */,
+				F5FDCC362AFAED3C000AF5B8 /* Agendamentos */,
+				F5FDCC322AFAECC4000AF5B8 /* CorteCabelo */,
+				F5FDCC302AFAEBED000AF5B8 /* TratamentoCapilar */,
+				F5FDCC332AFAECD6000AF5B8 /* CuidadosUnhas */,
+				F5FDCC342AFAECF3000AF5B8 /* CuidadosPele */,
+				F5FDCC352AFAED05000AF5B8 /* Depilacao */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F5FDCC2D2AFAEACD000AF5B8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F5809DFF2AF6EC55001C5DD2 /* MapView.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		F5FDCC2E2AFAEB3A000AF5B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E012AF6ECD5001C5DD2 /* ContentViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F5FDCC302AFAEBED000AF5B8 /* TratamentoCapilar */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E092AF6ED4C001C5DD2 /* Tintura.swift */,
+				F5809E0B2AF6ED57001C5DD2 /* Hidratacao.swift */,
+				F5809E0D2AF6ED68001C5DD2 /* Penteados.swift */,
+			);
+			name = TratamentoCapilar;
+			sourceTree = "<group>";
+		};
+		F5FDCC322AFAECC4000AF5B8 /* CorteCabelo */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDCC372AFAEDA2000AF5B8 /* CorteMasculino.swift */,
+				F5FDCC392AFAEDB2000AF5B8 /* CorteFeminino.swift */,
+			);
+			name = CorteCabelo;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F5FDCC332AFAECD6000AF5B8 /* CuidadosUnhas */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */,
+				F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */,
+				F5809E112AF6ED83001C5DD2 /* Pedicure.swift */,
+				F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */,
+				F5809E132AF6ED8D001C5DD2 /* Podologia.swift */,
+			);
+			name = CuidadosUnhas;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F5FDCC342AFAECF3000AF5B8 /* CuidadosPele */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E152AF6EDA1001C5DD2 /* Maquiagem.swift */,
+				F5809E172AF6EDA9001C5DD2 /* LimpezaPele.swift */,
+				F5809E192AF6EDB3001C5DD2 /* Peeling.swift */,
+			);
+			name = CuidadosPele;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F5FDCC352AFAED05000AF5B8 /* Depilacao */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E1B2AF6EDFA001C5DD2 /* Depilacao.swift */,
+			);
+			name = Depilacao;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F5FDCC362AFAED3C000AF5B8 /* Agendamentos */ = {
+			isa = PBXGroup;
+			children = (
+				F5809E032AF6ED1F001C5DD2 /* Agendamentos.swift */,
+			);
+			name = Agendamentos;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F5FDCC3B2AFAEF18000AF5B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDCC3C2AFAEF42000AF5B8 /* Model.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +277,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5809E182AF6EDA9001C5DD2 /* LimpezaPele.swift in Sources */,
+				F5FDCC3A2AFAEDB2000AF5B8 /* CorteFeminino.swift in Sources */,
+				F573FE8D2AFC39320096C264 /* ManicureEstabelecimentos.swift in Sources */,
+				F5809E1C2AF6EDFA001C5DD2 /* Depilacao.swift in Sources */,
+				F5809E022AF6ECD5001C5DD2 /* ContentViewModel.swift in Sources */,
+				F5809E142AF6ED8D001C5DD2 /* Podologia.swift in Sources */,
 				F5809DF42AF6EC12001C5DD2 /* ContentView.swift in Sources */,
+				F5809E002AF6EC55001C5DD2 /* MapView.swift in Sources */,
+				F5809E102AF6ED77001C5DD2 /* Manicure.swift in Sources */,
+				F5FDCC382AFAEDA2000AF5B8 /* CorteMasculino.swift in Sources */,
+				F5FDCC3D2AFAEF42000AF5B8 /* Model.swift in Sources */,
 				F5809DF22AF6EC12001C5DD2 /* iCutAppApp.swift in Sources */,
+				F5809E0C2AF6ED57001C5DD2 /* Hidratacao.swift in Sources */,
+				F573FE8F2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift in Sources */,
+				F5809E042AF6ED1F001C5DD2 /* Agendamentos.swift in Sources */,
+				F5809E0A2AF6ED4C001C5DD2 /* Tintura.swift in Sources */,
+				F5809E1A2AF6EDB3001C5DD2 /* Peeling.swift in Sources */,
+				F5809E122AF6ED83001C5DD2 /* Pedicure.swift in Sources */,
+				F5809E0E2AF6ED68001C5DD2 /* Penteados.swift in Sources */,
+				F5809E162AF6EDA1001C5DD2 /* Maquiagem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +433,14 @@
 				DEVELOPMENT_TEAM = 5X357FBCR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +448,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = siarom.iCutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +468,14 @@
 				DEVELOPMENT_TEAM = 5X357FBCR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +483,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = siarom.iCutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
