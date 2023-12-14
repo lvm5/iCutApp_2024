@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53D03752B0953640020777C /* MascEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D03742B0953640020777C /* MascEstabelecimentos.swift */; };
+		F53D03782B0954100020777C /* FemEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D03772B0954100020777C /* FemEstabelecimentos.swift */; };
 		F573FE8D2AFC39320096C264 /* ManicureEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */; };
-		F573FE8F2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */; };
 		F5809DF22AF6EC12001C5DD2 /* iCutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809DF12AF6EC12001C5DD2 /* iCutAppApp.swift */; };
 		F5809DF42AF6EC12001C5DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809DF32AF6EC12001C5DD2 /* ContentView.swift */; };
 		F5809DF62AF6EC14001C5DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5809DF52AF6EC14001C5DD2 /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		F5809E0C2AF6ED57001C5DD2 /* Hidratacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0B2AF6ED57001C5DD2 /* Hidratacao.swift */; };
 		F5809E0E2AF6ED68001C5DD2 /* Penteados.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0D2AF6ED68001C5DD2 /* Penteados.swift */; };
 		F5809E102AF6ED77001C5DD2 /* Manicure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */; };
-		F5809E122AF6ED83001C5DD2 /* Pedicure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E112AF6ED83001C5DD2 /* Pedicure.swift */; };
 		F5809E142AF6ED8D001C5DD2 /* Podologia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E132AF6ED8D001C5DD2 /* Podologia.swift */; };
 		F5809E162AF6EDA1001C5DD2 /* Maquiagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E152AF6EDA1001C5DD2 /* Maquiagem.swift */; };
 		F5809E182AF6EDA9001C5DD2 /* LimpezaPele.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5809E172AF6EDA9001C5DD2 /* LimpezaPele.swift */; };
@@ -32,8 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53D03742B0953640020777C /* MascEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascEstabelecimentos.swift; sourceTree = "<group>"; };
+		F53D03772B0954100020777C /* FemEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemEstabelecimentos.swift; sourceTree = "<group>"; };
 		F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManicureEstabelecimentos.swift; sourceTree = "<group>"; };
-		F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedicureEstabelecimentos.swift; sourceTree = "<group>"; };
 		F5809DEE2AF6EC12001C5DD2 /* iCutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5809DF12AF6EC12001C5DD2 /* iCutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCutAppApp.swift; sourceTree = "<group>"; };
 		F5809DF32AF6EC12001C5DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		F5809E0B2AF6ED57001C5DD2 /* Hidratacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidratacao.swift; sourceTree = "<group>"; };
 		F5809E0D2AF6ED68001C5DD2 /* Penteados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penteados.swift; sourceTree = "<group>"; };
 		F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manicure.swift; sourceTree = "<group>"; };
-		F5809E112AF6ED83001C5DD2 /* Pedicure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedicure.swift; sourceTree = "<group>"; };
 		F5809E132AF6ED8D001C5DD2 /* Podologia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podologia.swift; sourceTree = "<group>"; };
 		F5809E152AF6EDA1001C5DD2 /* Maquiagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maquiagem.swift; sourceTree = "<group>"; };
 		F5809E172AF6EDA9001C5DD2 /* LimpezaPele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimpezaPele.swift; sourceTree = "<group>"; };
@@ -68,6 +68,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F53D03732B09533D0020777C /* CorteMasculino */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDCC372AFAEDA2000AF5B8 /* CorteMasculino.swift */,
+				F53D03742B0953640020777C /* MascEstabelecimentos.swift */,
+			);
+			path = CorteMasculino;
+			sourceTree = "<group>";
+		};
+		F53D03762B0953F30020777C /* CorteFeminino */ = {
+			isa = PBXGroup;
+			children = (
+				F5FDCC392AFAEDB2000AF5B8 /* CorteFeminino.swift */,
+				F53D03772B0954100020777C /* FemEstabelecimentos.swift */,
+			);
+			path = CorteFeminino;
+			sourceTree = "<group>";
+		};
 		F5809DE52AF6EC12001C5DD2 = {
 			isa = PBXGroup;
 			children = (
@@ -149,8 +167,8 @@
 		F5FDCC322AFAECC4000AF5B8 /* CorteCabelo */ = {
 			isa = PBXGroup;
 			children = (
-				F5FDCC372AFAEDA2000AF5B8 /* CorteMasculino.swift */,
-				F5FDCC392AFAEDB2000AF5B8 /* CorteFeminino.swift */,
+				F53D03732B09533D0020777C /* CorteMasculino */,
+				F53D03762B0953F30020777C /* CorteFeminino */,
 			);
 			name = CorteCabelo;
 			path = ..;
@@ -161,8 +179,6 @@
 			children = (
 				F5809E0F2AF6ED77001C5DD2 /* Manicure.swift */,
 				F573FE8C2AFC39320096C264 /* ManicureEstabelecimentos.swift */,
-				F5809E112AF6ED83001C5DD2 /* Pedicure.swift */,
-				F573FE8E2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift */,
 				F5809E132AF6ED8D001C5DD2 /* Podologia.swift */,
 			);
 			name = CuidadosUnhas;
@@ -282,7 +298,9 @@
 				F573FE8D2AFC39320096C264 /* ManicureEstabelecimentos.swift in Sources */,
 				F5809E1C2AF6EDFA001C5DD2 /* Depilacao.swift in Sources */,
 				F5809E022AF6ECD5001C5DD2 /* ContentViewModel.swift in Sources */,
+				F53D03752B0953640020777C /* MascEstabelecimentos.swift in Sources */,
 				F5809E142AF6ED8D001C5DD2 /* Podologia.swift in Sources */,
+				F53D03782B0954100020777C /* FemEstabelecimentos.swift in Sources */,
 				F5809DF42AF6EC12001C5DD2 /* ContentView.swift in Sources */,
 				F5809E002AF6EC55001C5DD2 /* MapView.swift in Sources */,
 				F5809E102AF6ED77001C5DD2 /* Manicure.swift in Sources */,
@@ -290,11 +308,9 @@
 				F5FDCC3D2AFAEF42000AF5B8 /* Model.swift in Sources */,
 				F5809DF22AF6EC12001C5DD2 /* iCutAppApp.swift in Sources */,
 				F5809E0C2AF6ED57001C5DD2 /* Hidratacao.swift in Sources */,
-				F573FE8F2AFC3A5F0096C264 /* PedicureEstabelecimentos.swift in Sources */,
 				F5809E042AF6ED1F001C5DD2 /* Agendamentos.swift in Sources */,
 				F5809E0A2AF6ED4C001C5DD2 /* Tintura.swift in Sources */,
 				F5809E1A2AF6EDB3001C5DD2 /* Peeling.swift in Sources */,
-				F5809E122AF6ED83001C5DD2 /* Pedicure.swift in Sources */,
 				F5809E0E2AF6ED68001C5DD2 /* Penteados.swift in Sources */,
 				F5809E162AF6EDA1001C5DD2 /* Maquiagem.swift in Sources */,
 			);

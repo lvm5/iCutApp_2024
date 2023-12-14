@@ -8,17 +8,36 @@
 import SwiftUI
 
 struct Manicure: View {
+    @State private var isSheetPresented = false // Adicionando a variável de estado para controlar a sheet
     var title: String
-
+    
     var body: some View {
-        
-        // MARK: NAVIGATION
-        NavigationStack {
             
-            //MARK: CONTEÚDO
-            List() {
+        NavigationStack {
+            Button(action: { isSheetPresented = true}, label: {
+                    HStack {
+                        Image("shama")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100, height: 100)
+                            .clipShape(Circle())
+                            .overlay(Circle().stroke(Color.clear))
+                        
+                        VStack(alignment: .leading) {
+                            Text(shamaBelezaEstetica.name.description)
+                                .font(.system(size: 20, weight: .medium))
+                                .foregroundColor(.pink)
+                                .padding(.bottom, 2.0)
+                            Text(shamaBelezaEstetica.location.description)
+                                .font(.system(size: 10, weight: .medium))
+                                .foregroundColor(.gray)
+                        }
+                        //.padding(.leading, 8)
+                    }                })
                 
-                //NavigationLink(destination: ManicureEstabelecimentos()) {
+                Divider()
+                
+                Button(action: {isSheetPresented = true}, label: {
                     HStack {
                         Image(systemName: "scissors")
                             .font(.title)
@@ -30,38 +49,21 @@ struct Manicure: View {
                                 .font(.system(size: 15, weight: .light))
                                 .foregroundColor(.gray)
                         }
-                        .padding(.leading, 10)
-                    }
-                //}
-                .listRowSeparator(.hidden)
+                        .padding(.leading, 8)
+                    }                })
                 
-                Divider()
+                Spacer()
+
                 
-                //NavigationLink(destination: ManicureEstabelecimentos()) {
-                    HStack {
-                        Image(systemName: "scissors")
-                            .font(.title)
-                        VStack(alignment: .leading) {
-                            Text(studioMariliaLima.name.description)
-                                .font(.system(size: 25, weight: .medium))
-                                .foregroundColor(.pink)
-                            Text(studioMariliaLima.location.description)
-                                .font(.system(size: 15, weight: .light))
-                                .foregroundColor(.gray)
-                        }
-                        .padding(.leading, 10)
-                    }
-                //}
-                
-                .listRowSeparator(.hidden)
             }
-            .listStyle(.inset)
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Estabelecimentos")
+            //MARK: -- APRESENTAÇÃO (SHEET)
+            .sheet(isPresented: $isSheetPresented) {
+                ManicureEstabelecimentos()
             }
         }
-    
     }
+
+
 
 
 #Preview {

@@ -8,11 +8,66 @@
 import SwiftUI
 
 struct CorteFeminino: View {
+
+    @State private var isSheetPresented = false // Adicionando a variável de estado para controlar a sheet
     var title: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        NavigationStack {
+            Button(action: { isSheetPresented = true}, label: {
+                HStack {
+                    Image("shama")
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                        .frame(width: 100, height: 100)
+                    VStack(alignment: .leading) {
+                        //                        Text(shamaBelezaEstetica.name.description)
+                        //                            .font(.system(size: 20, weight: .medium))
+                        //                            .foregroundColor(.pink)
+                        //                            .padding(.bottom, 2.0)
+                        Text(shamaBelezaEstetica.location.description)
+                            .font(.system(size: 15, weight: .medium))
+                            .foregroundColor(.gray)
+                            .padding(.horizontal)
+                    }
+                    //.padding(.leading, 8)
+                }                })
+
+            Divider()
+
+            Button(action: {isSheetPresented = true}, label: {
+                HStack {
+                    Image("shama")
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                        .frame(width: 100, height: 100)
+                    VStack(alignment: .leading) {
+                        //                        Text(shamaBelezaEstetica.name.description)
+                        //                            .font(.system(size: 20, weight: .medium))
+                        //                            .foregroundColor(.pink)
+                        //.padding(.bottom, 2.0)
+                        Text(shamaBelezaEstetica.location.description)
+                            .font(.system(size: 15, weight: .medium))
+                            .foregroundColor(.gray)
+                            .padding(.horizontal)
+                    }
+                    //.padding(.leading, 8)
+                }                })
+
+            Spacer()
+
+
+        }
+        //MARK: -- APRESENTAÇÃO (SHEET)
+        .sheet(isPresented: $isSheetPresented) {
+            ManicureEstabelecimentos()
+        }
     }
 }
+
 
 #Preview {
     CorteFeminino(title: "Escolha um local")
