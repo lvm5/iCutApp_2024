@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 
-struct MascEstabelecimentos: View {
+struct ReservaEstabelecimentosMasc: View {
 
     struct Horario: Identifiable {
         let id = UUID()
@@ -82,5 +82,5 @@ struct MascEstabelecimentos: View {
 
 
 #Preview {
-    MascEstabelecimentos(title: "Escolha um horário")
+    ReservaEstabelecimentosMasc(title: "Escolha um horário")
 }
